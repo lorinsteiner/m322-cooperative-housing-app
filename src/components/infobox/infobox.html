@@ -1,0 +1,15 @@
+<div class="info-box">
+  @if (buildingLeft != '') {
+    <div class="info-box-icon">
+      <span class="material-symbols-outlined">apartment</span>
+      <p>{{buildingLeft}}</p>
+    </div>
+  }
+  <div class="info-box-left">
+    <p class="info-box-title">{{ title }}</p>
+    @if (textBottom != '') {
+      <p class="info-box-text">{{ textBottom }}</p>
+    }
+  </div>
+  <a href="#" class="info-box-link">Zu unserer Webseite</a>
+</div>

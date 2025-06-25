@@ -1,12 +1,19 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import {MyHeader} from '../components/header/my-header.component';
+import {MyFooter} from '../components/footer/my-footer';
+import {Start} from './start/start';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet],
   templateUrl: './app.html',
-  styleUrl: './app.css'
+  imports: [
+    MyHeader,
+    MyFooter,
+    Start
+  ],
+  styleUrls: ['./app.css']
 })
 export class App {
-  protected title = 'implementation';
+  title = 'Willkommen zurück!';
+
 }

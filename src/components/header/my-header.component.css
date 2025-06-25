@@ -1,0 +1,19 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem; /* Abstand nach unten */
+  position: relative;
+}
+
+h1 {
+  font-size: 1.25rem; /* XL-Textgröße */
+  font-weight: 600; /* Halbfett */
+  color: #374151; /* Grauer Text */
+}
+
+.icon-group {
+  display: flex;
+  gap: 0.75rem; /* Abstand zwischen den Icons */
+}
+

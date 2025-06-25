@@ -1,0 +1,114 @@
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+  background-color: #f0f2f5;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+  margin: 0;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+a {
+  color: #3b82f6;
+  font-weight: 500;
+  font-size: 0.875rem;
+  margin-top: 0.75rem;
+  display: inline-block;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.smartphone-container {
+  justify-self: center;
+  background-color: #ffffff;
+  border-radius: 1.5rem; /* Abgerundete Ecken */
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05); /* Dezenter Schatten */
+  max-width: 400px;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  padding-bottom: 70px; /* Platz für die untere Navigation */
+}
+
+/* Willkommens-Überschrift */
+.welcome-heading {
+  font-size: 1.875rem; /* 3XL-Textgröße */
+  font-weight: 700; /* Fett */
+  color: #111827; /* Dunkelgrau */
+  margin-bottom: 1rem; /* Abstand nach unten */
+}
+
+/* Willkommenstext */
+.welcome-text {
+  color: #374151; /* Grauer Text */
+  margin-bottom: 1.5rem; /* Abstand nach unten */
+}
+
+/* Prompt zum Anmelden/Registrieren */
+.login-prompt {
+  text-align: center;
+  color: #374151; /* Grauer Text */
+  margin-bottom: 1rem; /* Abstand nach unten */
+}
+
+/* Container für den Login-Link-Button */
+.login-button-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1.5rem; /* Abstand nach unten */
+}
+
+.login-link {
+  color: #2563eb; /* Blauer Text */
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.login-link:hover {
+  text-decoration: underline;
+}
+
+
+/* Überschrift für Nachrichten */
+.news-heading {
+  font-size: 1.125rem; /* LG-Textgröße */
+  font-weight: 600; /* Halbfett */
+  color: #374151; /* Grauer Text */
+  margin-bottom: 1rem; /* Abstand nach unten */
+}
+
+/* Nachrichtenartikel-Karte */
+.news-item-card {
+  background-color: #f8fafc; /* Sehr hellgrauer Hintergrund */
+  border-left: 4px solid #3b82f6; /* Blauer linker Rand */
+  padding: 1rem; /* Innenabstand */
+  border-radius: 0.75rem; /* Abgerundete Ecken */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05); /* Dezenter Schatten */
+}
+
+.news-item-title {
+  font-weight: 500; /* Mittel */
+  color: #374151; /* Grauer Text */
+}
+
+.news-item-date {
+  color: #6b7280; /* Grauer Text */
+  font-size: 0.875rem; /* Kleine Textgröße */
+}
+
+.news-item-time {
+  color: #9ca3af; /* Sehr hellgrauer Text */
+  font-size: 0.75rem; /* Kleinste Textgröße */
+}
+
