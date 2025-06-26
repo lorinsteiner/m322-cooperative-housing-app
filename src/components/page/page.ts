@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import {MyFooter} from "../footer/my-footer";
-import {MyHeader} from "../header/my-header.component";
+import {MyHeader} from "../header/my-header";
 
 @Component({
   selector: 'page',
