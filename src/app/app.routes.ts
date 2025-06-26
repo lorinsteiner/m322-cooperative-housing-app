@@ -1,7 +1,7 @@
 import { Routes } from '@angular/router';
 import {Communication} from './communication/communication';
 import {Start} from './start/start';
-import {Market} from './market/market/market';
+import {Market} from './market/market';
 import {Rooms} from './rooms/rooms';
 import {Profil} from './profil/profil';
 

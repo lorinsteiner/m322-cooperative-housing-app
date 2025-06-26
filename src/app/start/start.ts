@@ -1,14 +1,14 @@
 import { Component } from '@angular/core';
 import {Page} from '../../components/page/page';
 import {Infobox} from '../../components/infobox/infobox';
-import {Button} from '../../components/button/button';
+import {HlmButtonDirective} from '@spartan-ng/helm/button';
 
 @Component({
   selector: 'start-page',
   imports: [
     Page,
     Infobox,
-    Button
+    HlmButtonDirective
   ],
   templateUrl: './start.html',
   styleUrl: './start.css'
