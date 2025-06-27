@@ -14,8 +14,10 @@ export class Infobox {
   textBottom: string = 'Information Box content bottom';
   buildingLeft: string = '-';
 
-
-  hasFavorite: boolean = false;
+  hasFavorite: boolean = true;
   favorite: boolean = false;
 
+  toggleFavorite() {
+    this.favorite = !this.favorite;
+  }
 }

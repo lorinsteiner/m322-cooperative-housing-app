@@ -12,4 +12,14 @@
     }
   </div>
   <a href="#" class="info-box-link">Zu unserer Webseite</a>
+  @if (hasFavorite) {
+    <button class="info-box-favorite" (click)="toggleFavorite()">
+      @if (favorite) {
+        <span class="material-symbols-outlined filled">star</span>
+      } @else {
+        <span class="material-symbols-outlined">star</span>
+      }
+    </button>
+  }
 </div>
+

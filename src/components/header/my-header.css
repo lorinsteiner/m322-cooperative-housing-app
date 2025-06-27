@@ -2,8 +2,8 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 1.5rem; /* Abstand nach unten */
   position: relative;
+  padding: 1.5rem;
 }
 
 h1 {
