@@ -7,13 +7,13 @@ header {
 }
 
 h1 {
-  font-size: 1.25rem; /* XL-Textgröße */
-  font-weight: 600; /* Halbfett */
-  color: #374151; /* Grauer Text */
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #374151;
 }
 
 .icon-group {
   display: flex;
-  gap: 0.75rem; /* Abstand zwischen den Icons */
+  gap: 0.75rem;
 }
 

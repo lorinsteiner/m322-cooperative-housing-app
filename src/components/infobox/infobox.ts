@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import {Component, Input} from '@angular/core';
 
 @Component({
   selector: 'infobox',
@@ -8,14 +8,14 @@ import { Component } from '@angular/core';
 })
 export class Infobox {
 
-  title: string = 'Information Box';
+  @Input() title: string = 'Information Box';
 
-  textRight: string = 'Information Box content right';
-  textBottom: string = 'Information Box content bottom';
-  buildingLeft: string = '-';
+  @Input() textRight: string = 'Information Box content right';
+  @Input() textBottom: string = '';
+  @Input() buildingLeft: string = '';
 
-  hasFavorite: boolean = true;
-  favorite: boolean = false;
+  @Input() hasFavorite: boolean = false;
+  @Input() favorite: boolean = false;
 
   toggleFavorite() {
     this.favorite = !this.favorite;

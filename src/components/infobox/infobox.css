@@ -44,8 +44,11 @@
   flex-direction: column;
 }
 
+.info-box-right {
+  font-size: 0.8em;
+}
+
 .info-box-title {
-  font-weight: 600;
   color: #374151;
   margin-bottom: 0.5rem;
 }

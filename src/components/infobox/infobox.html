@@ -11,7 +11,7 @@
       <p class="info-box-text">{{ textBottom }}</p>
     }
   </div>
-  <a href="#" class="info-box-link">Zu unserer Webseite</a>
+  <p class="info-box-right">{{ textRight }}</p>
   @if (hasFavorite) {
     <button class="info-box-favorite" (click)="toggleFavorite()">
       @if (favorite) {
