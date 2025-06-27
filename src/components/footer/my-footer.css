@@ -1,45 +1,42 @@
-.bottom-navigation {
-  position: fixed;
+nav {
+  position: relative;
   bottom: 0;
-  left: 50%;
-  transform: translateX(-50%); /* Zentriert die Navigation */
+  left: 0;
+  right: 0;
   width: 100%;
-  max-width: 400px; /* Begrenzt die Breite der Navigation */
   background-color: #ffffff;
-  border-top: 1px solid #e5e7eb; /* Heller Rand oben */
+  border-top: 1px solid #e5e7eb;
+
   display: flex;
   justify-content: space-around;
   align-items: center;
-  padding: 0.5rem 1rem; /* Innenabstand */
-  border-top-left-radius: 1rem; /* Abgerundete obere Ecken */
-  border-top-right-radius: 1rem; /* Abgerundete obere Ecken */
-  box-shadow: 0 -4px 6px -1px rgba(0, 0, 0, 0.1), 0 -2px 4px -1px rgba(0, 0, 0, 0.06); /* Schatten nach oben */
+  margin: 0;
+  padding: 0;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+  box-shadow: 0 -4px 6px -1px rgba(0, 0, 0, 0.1), 0 -2px 4px -1px rgba(0, 0, 0, 0.06);
 }
 
 .nav-item {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
   flex: 1;
-  padding: 0.5rem 0;
-  color: #6b7280; /* Grauer Text */
+  flex-direction: column;
+  align-content: space-around;
+  justify-content: center;
+  width: 100%;
+  padding: 0.5rem;
+  color: #6b7280;
   font-size: 0.75rem;
   font-weight: 500;
   text-decoration: none;
 }
 
 .nav-item:hover {
-  color: #3b82f6; /* Blauer Text beim Hover */
-  transition: color 0.3s ease; /* Sanfter Übergang */
+  color: #3b82f6;
+  transition: color 0.3s ease;
 }
 
 .nav-item.active {
-  color: #3b82f6; /* Blauer Text für aktives Element */
-}
-
-.nav-item .material-symbols-outlined {
-  font-size: 1.5rem; /* Icon-Größe anpassen */
-  margin-bottom: 0.25rem;
+  color: var(--color-accent-foreground);
 }
 
