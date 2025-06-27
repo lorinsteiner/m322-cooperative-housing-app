@@ -15,6 +15,12 @@
     "paths": {
       "@spartan-ng/helm/button": [
         ".\\libs/ui/ui-button-helm/src/index.ts"
+      ],
+      "@spartan-ng/helm/tabs": [
+        ".\\libs/ui/ui-tabs-helm/src/index.ts"
+      ],
+      "@spartan-ng/helm/select": [
+        ".\\libs/ui/ui-select-helm/src/index.ts"
       ]
     }
   },
