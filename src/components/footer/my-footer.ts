@@ -1,4 +1,4 @@
-import {Component} from '@angular/core';
+import {Component, Input} from '@angular/core';
 
 @Component({
   selector: 'my-footer',
@@ -8,6 +8,6 @@ import {Component} from '@angular/core';
 })
 export class MyFooter {
 
-  currentItem: number = 0;
+  @Input() currentItem: number = 0;
 
 }

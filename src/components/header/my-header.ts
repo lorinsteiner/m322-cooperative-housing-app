@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import {Component, Input} from '@angular/core';
 
 @Component({
   selector: 'my-header',
@@ -8,6 +8,6 @@ import { Component } from '@angular/core';
 })
 export class MyHeader {
 
-  title: string = 'Start';
+  @Input() title: string = 'Start';
 
 }

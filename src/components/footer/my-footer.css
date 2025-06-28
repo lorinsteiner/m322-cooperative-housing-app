@@ -32,7 +32,7 @@ nav {
 }
 
 .nav-item:hover {
-  color: #3b82f6;
+  color: var(--color-accent-foreground);
   transition: color 0.3s ease;
 }
 

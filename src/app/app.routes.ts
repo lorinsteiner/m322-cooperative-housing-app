@@ -6,9 +6,9 @@ import {Rooms} from './rooms/rooms';
 import {Profil} from './profil/profil';
 
 export const routes: Routes = [
-  { path: '', component: Start},
+  { path: 'start', component: Start},
   { path: 'market', component: Market },
   { path: 'communication', component: Communication },
   { path: 'rooms', component: Rooms },
-  { path: 'profil', component: Profil },
+  { path: 'profile', component: Profil },
 ];

@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import {Component, Input} from '@angular/core';
 import {MyFooter} from "../footer/my-footer";
 import {MyHeader} from "../header/my-header";
 
@@ -13,6 +13,8 @@ import {MyHeader} from "../header/my-header";
 })
 export class Page {
 
-  title: string = "Start";
+  @Input() title: string = "Start";
+
+  @Input() currentItem: number = 0;
 
 }
